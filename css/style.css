@@ -1,0 +1,299 @@
+body{
+	color: #2d3c49;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 60px 100px;
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	}
+
+header{
+	width: 100%;
+	position: relative;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: right;
+    border-bottom: 1px;
+    display: table;
+}
+
+header h1{
+    font-size: 50px;
+    font-weight: 100;
+    margin: 0 0 5px 0;
+}
+
+header h2{
+    font-size: 20px;
+    font-weight: 100;
+    margin: 5px 0 0 0;
+}
+
+.header-inner-left{
+	width: 15%;
+	display: table-cell;
+}
+
+.header-inner-right{
+	width: 85%;
+	display: table-cell;
+	border-bottom: solid #7d97ad;
+	padding-bottom: 20px
+}
+
+.logo{
+	position: absolute;
+	bottom: 20px;
+	font-size: 60px;
+	color: #02b3e4;
+}
+
+.main{
+	display: table;
+	width: 100%;
+}
+
+.cert-section{
+	display: table-cell;
+	width: 15%;
+	vertical-align: top;
+	padding-right: 30px;
+}
+
+.content{
+	display: table-cell;
+	width: 85%;
+	padding-top: 40px;
+}
+
+.certification{
+	padding-bottom: 10px;
+}
+
+.cert-icon{
+    height: 85px;
+}
+
+.cert-details{
+  	text-align: center;
+}
+
+.cert1{
+    background: url(../img/cert4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cert2{
+    background: url(../img/cert2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.cert3{
+    background: url(../img/cert3.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.hero-image{
+	width: 100%;
+	height: 500px;
+	background: url(../img/hero.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.my-works-sec{
+	width: 100%;
+	float: left;
+}
+
+.my-works-sec h1{
+	font-size: 35px;
+    font-weight: 100;
+    color: #7d97ad;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.my-works-wrapper{
+	width: 100%;
+	float: left;
+}
+
+.my-works-wrapper article{
+	width: 300px;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.work .pic{
+	width: 100%;
+	height: 250px
+}
+
+.work h2{
+	color: #2d3c49;
+	margin: 0;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+.work{
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.work1 .pic{
+	background: url(../img/pic_1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.work2 .pic{
+	background: url(../img/pic_2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.work3 .pic{
+	background: url(../img/pic_3.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.work4 .pic{
+	background: url(../img/pic_4.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.work a{
+	text-decoration: none;
+	color: #2d3c49;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer{
+	width: 100%;
+	border-top: solid #7d97ad;
+	margin-top: 30px;
+	padding-top: 15px;
+	float: left;
+	padding-bottom: 15px;
+}
+
+footer a{
+	text-decoration: none;
+}
+
+.footer-left{
+	float: left;
+}
+
+.footer-right{
+	float: right;
+}
+
+@media only screen and (max-width: 1190px) {
+	body{
+		padding: 60px 60px;
+	}	
+}
+
+@media only screen and (max-width: 900px) {
+	.main{
+		display: block;
+	}
+
+	.header-inner-left{
+		width: 100%;
+		display: block;
+	}	
+	.header-inner-right{
+		width: 100%;
+		display: block;
+	}	
+	.cert-section{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		padding-top: 20px;
+		padding-right: 0;
+	}
+
+	.certification{
+		width: 150px;
+	}
+
+	.content{
+		width: 100%;
+		display: block;
+		padding-top: 20px;
+	}
+
+	.my-works-sec h1{
+		text-align: center;
+	}
+}
+
+.certification{
+	width: 115px;
+}
+
+@media only screen and (max-width: 630px) {
+	body{
+		padding: 30px;
+	}
+
+	header h1{
+	    font-size: 35px;		
+	}
+
+	.header h2{
+		font-size: 15px;
+	}
+
+	.cert-details{
+	    font-size: 12px;
+	}
+
+	.hero-image{
+		height: 300px;
+	}
+
+	.work .pic{
+		height: 170px;
+	}
+	.work h2{
+	    padding-top: 10px;
+	    font-size: 20px;
+	}
+
+	.cert-icon{
+		height: 60px;
+	}
+
+	.cert-details{
+		font-size: 10px;
+	}
+
+	.footer-left{
+		font-size: 12px;
+	}
+
+	.hero-image{
+		height: 250px;
+	}
+}
